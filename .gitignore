@@ -213,15 +213,3 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-
-*.dll
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.pyd
-w9xpopen.exe
