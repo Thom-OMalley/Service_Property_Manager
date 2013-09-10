@@ -1,8 +1,10 @@
+Service Property Manager by Thomas O'Malley at the Illinois State Geological Survey
 
 1. Run the Service_Property_Manager.exe
 2. Click "Setup" the first time
 3. Fill in your contact info
 4. Navigate to the folder containing your CFG files
+	Default folder location = DRIVE:\Program Files (x86)\ArcGIS\Server10.0\server\user\cfg\aasggeothermal
 5. Click 'Use Tags' to use the Map Document Properties tags from an MXD of the same name as the service keywords
 6. Navigate to the folder containing your MXD files (this one searches several folders down for the files)
 7. Type in the names of the services you wish to edit (exclude file extensions)

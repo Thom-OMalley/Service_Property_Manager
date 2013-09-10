@@ -1,12 +1,12 @@
 #Import GUI essential modules
 import easygui as eg
-setupOptIn = eg.buttonbox("Welcome to the CFG Editor \n Created by Thomas O'Malley \n GIS Data Processor at the Illinois State Geological Survey \n \n Click Okay to Get Started", title="CFG Editor",image="ISGSLOGO.gif", choices=["Setup","Run"])
+setupOptIn = eg.buttonbox("Welcome to the Service Property Manager \n Created by Thomas O'Malley \n GIS Data Processor at the Illinois State Geological Survey \n \n Click Okay to Get Started", title="CFG Editor",image="ISGSLOGO.gif", choices=["Setup","Run"])
 
 import os, sys
 import cPickle as pickle
 
 #Create save folder for pickled files
-saveLoc = os.path.expanduser('~\\Documents\\CFG_Editor')
+saveLoc = os.path.expanduser('~\\Documents\\GIS_Script_Data\\Service_Property_Manager')
 
 if not os.path.exists(saveLoc):
             os.makedirs(saveLoc)

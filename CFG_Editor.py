@@ -4,7 +4,7 @@ import os, sys, subprocess, glob, arcpy
 import cPickle as pickle
 
 #other important repeats
-saveLoc = os.path.expanduser('~\\Documents\\CFG_Editor')
+saveLoc = os.path.expanduser('~\\Documents\\GIS_Script_Data\\Service_Property_Manager')
 
 #Error Handling
 errorList = []
@@ -203,7 +203,7 @@ for Service in Services:
                'ServiceType', 'ServiceTypeVersion', 'Fees', 'IndividualName', 'PositionName',
                'ProviderName', 'ProviderSite', 'DeliveryPoint', 'City', 'AdministrativeArea',
                'PostalCode', 'Country', 'Phone', 'ElectronicMailAddress', 'HoursOfService', 'Role')
-    valueList = (str(OnlineResourceWFS), str(AppSchemaURI), 'aasg', str(Title), str(Abstract), str(keywords),
+    valueList = (str(OnlineResourceWFS), str(AppSchemaURI), 'aasg', str(Service), str(Abstract), str(keywords),
                  'WFS', r'1.1.0', 'None', fieldDict.get('Name'), fieldDict.get('Position'), fieldDict.get('Organization (Provider)'),
                  fieldDict.get('Website'), fieldDict.get('Street Address'),
                  fieldDict.get('City'), fieldDict.get('State'), fieldDict.get('Postal (Zip) Code'),
